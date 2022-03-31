@@ -1,10 +1,56 @@
-/* Colors para proyecto
 @import url('https://fonts.googleapis.com/css2?family=ABeeZee&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Montserrat:wght@400;700&display=swap');
 
-HEX #5499C7 RGB 84, 153, 199 HSL  204, 51%, 55%
-
-HEX #5499C7 RGB 84, 153, 199 HSL 204, 51%, 55% */
 /* https://coolors.co/ff99c8-fcf6bd-d0f4de-a9def9-e4c1f9 */
-
+/* #00AFC1 */
 /* Fonts para proyecto */
+body {
+    font-family: 'Montserrat', cursive;
+    margin: 0;
+    background-color: #00AFC1;
+    
+}
+.nav {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    position: fixed;
+    top: 0;
+    padding: 1rem;
+    background-color: #00aec1af;
+}
+.nav a {
+    color: whitesmoke;
+    font-size: 1.3rem;
+    text-decoration: none;
+    transition: .5s;
+}
+.nav a:hover { 
+    color: black;
+    transition-delay: 0s;
+}
+header {
+    text-align: center;
+    color: whitesmoke;
+}
+.header img {
+    width: 100%;
+}
+.footer {
+    background-color: #006778;
+}
+.footer-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.footer-links__active {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
